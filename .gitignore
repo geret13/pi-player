@@ -1,12 +1,25 @@
-*.class
+# General temp files
+.DS_Store
+*.ser
+*.pyc
+*.swp
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Files related to Play build or usage
+target
+logs
+log
+out
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# IDE and editors
+*~
+.idea/tasks.xml
+.idea/workspace.xml
+.cache
+nbproject
+eclipse
+.amateras
+.settings
+.classpath
+.project
+*.ipr
+*.iws
